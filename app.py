@@ -32,7 +32,7 @@ def check_update():
 
 
 def send_notify(notification_message):
-    line_notify_token = 'FaPhelEok2cCupPUoRL19nK0yFlRVE31RufKbyPKEa4'
+    line_notify_token = ''
     line_notify_api = 'https://notify-api.line.me/api/notify'
     headers = {'Authorization': f'Bearer {line_notify_token}'}
     data = {'message': notification_message}
